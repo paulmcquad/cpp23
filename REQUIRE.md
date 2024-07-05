@@ -1,4 +1,3 @@
-<!-- 
 Things you need in advance:
 Stuff in () -> My Setup
 
@@ -16,5 +15,3 @@ Stuff in () -> My Setup
 12. C++ Reference Sites - (https://en.cppreference.com/w/ and https://cplusplus.com/reference/)
 13. IRC channels : Librea.chat #C++ channel
 14. Online C++ Compiler (Compiler Explorer - https://godbolt.org/)
-
--->

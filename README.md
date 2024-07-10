@@ -1,2 +1,2 @@
 # cpp23
-Source Code for 'C++23 for GNU GCC' by Paul McQuade
+Source Code for 'C++23 in 3 minutes' by Paul McQuade

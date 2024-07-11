@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.30)
-project(cpp23)
+project(cpp23-0)
 
 # Debugging Settings (uncomment) :
 #add_compile_options(-Wall -Wextra -Wpedantic)

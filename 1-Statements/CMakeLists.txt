@@ -17,6 +17,7 @@ add_executable(sumnum sumnum.cpp)
 add_executable(guessing guessing.cpp)
 add_executable(printnum printnum.cpp)
 add_executable(forcon forcon.cpp)
+add_executable(goto goto.cpp)
 
 
 # Linux Builds:

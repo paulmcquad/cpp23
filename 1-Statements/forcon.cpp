@@ -8,7 +8,7 @@ int main() {
     for (int i : myNumbers) {
       // 4 will be skipped over
       if (i == 4) {
-        break;
+        continue;
       }
       std::print("{0}\n", i);
     }

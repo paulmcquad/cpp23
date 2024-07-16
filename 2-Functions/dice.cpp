@@ -24,6 +24,8 @@ int main() {
 // Generate a random integer from 0 to N-1, with each
 //  integer an equal probability.
 //
+
+// Function definition
 int rand_0toN1(int n) {
     return rand() % n;
 }

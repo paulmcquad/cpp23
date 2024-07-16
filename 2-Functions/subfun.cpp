@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <print>
 
+// Function must be declared before being used.
 int rand_0toN1(int n);
 
 int main() {
@@ -52,6 +53,7 @@ int main() {
     return 0;
 }
 
+// Function definition
 int rand_0toN1(int n) {
     return rand() % n;
 }

@@ -23,6 +23,7 @@ void move_rings(int n, int src, int dest, int other) {
     }
 }
 
+// move_a_ring - Function definition
 void move_a_ring(int src, int dest) {
     std::print("Move from {0} to {1}\n", src, dest);
 }

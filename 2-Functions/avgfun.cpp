@@ -6,7 +6,7 @@
 double avg(double x, double y);
 
 int main() {
-    // Int Braced Initialization - C++11  
+    // Double Braced Initialization - C++11  
     double a{0.0};
     double b{0.0};
 

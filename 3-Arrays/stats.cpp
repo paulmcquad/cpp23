@@ -3,7 +3,7 @@
 #include <print>
 
 int rand_0toN1(int n);
-int hits[10];
+int hits[10]; // global array
 
 int main() {
     

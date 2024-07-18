@@ -4,8 +4,8 @@
 #include <ctime>
 #include <print>
 
+// global arrays
 int deck[52];
-
 std::string card_names[13] = {"A", "2", "3", "4", "5", "6",
    "7", "8", "9", "10", "J", "Q", "K" };
 

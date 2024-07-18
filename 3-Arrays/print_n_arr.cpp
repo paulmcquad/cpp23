@@ -2,6 +2,7 @@
 #include <string>
 #include <print>
 
+// global arrays
 std::string tens_names[10] = {"", "", "twenty", "thirty", "forty",
    "fifty", "sixty", "seventy", "eighty", "ninety" };
 

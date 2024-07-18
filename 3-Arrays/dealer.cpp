@@ -6,7 +6,7 @@
 
 int deck[52];
 
-std::string card_names[ ] = {"A", "2", "3", "4", "5", "6",
+std::string card_names[13] = {"A", "2", "3", "4", "5", "6",
    "7", "8", "9", "10", "J", "Q", "K" };
 
 void swap_cards(int i, int j);
@@ -32,7 +32,7 @@ int main() {
         int j = deck[i] % 13;
         std::print("{0} ", card_names[j]);
     }
-    std::print(" ");
+    std::print("\n");
     return 0;
 }
 

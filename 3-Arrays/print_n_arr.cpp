@@ -2,10 +2,10 @@
 #include <string>
 #include <print>
 
-std::string tens_names[ ] = {"", "", "twenty", "thirty", "forty",
+std::string tens_names[10] = {"", "", "twenty", "thirty", "forty",
    "fifty", "sixty", "seventy", "eighty", "ninety" };
 
-std::string units_names[ ] = {"", "one", "two", "three", "four",
+std::string units_names[10] = {"", "one", "two", "three", "four",
    "five", "six", "seven", "eight", "nine" };
 
 int main() {
@@ -18,6 +18,6 @@ int main() {
     int units_digits = n % 10;
     std::print("The number you entered was ");
     std::print("{0} ", tens_names[tens_digits]);
-    std::print("{0} ", units_names[units_digits]);
+    std::print("{0} \n", units_names[units_digits]);
     return 0;
 }

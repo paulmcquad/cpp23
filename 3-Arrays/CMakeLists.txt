@@ -12,6 +12,7 @@ add_executable(dealer dealer.cpp)
 add_executable(print_arr print_arr.cpp)
 add_executable(print_n_arr print_n_arr.cpp)
 add_executable(stats stats.cpp)
+add_executable(graderecords2 graderecords2.cpp)
 
 # Linux Builds:
 # mkdir build

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.30)
 project(cpp23-2)
 
 # Debugging Settings (uncomment) :
-#add_compile_options(-Werror -Wall -Wextra -Wpedantic)
+add_compile_options(-Werror -Wall -Wextra -Wpedantic)
 
 # Set C++ 23 Support
 set(CMAKE_CXX_STANDARD 23)

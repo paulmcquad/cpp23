@@ -1,5 +1,3 @@
-// g++ -lfmt -std=gnu++23 arr2fmt.cpp -o arr2fmt
-//
 // fig06_01.cpp
 // Initializing an array's elements to zeros and printing the array.
 #include <fmt/format.h> // C++20: This will be #include <format>

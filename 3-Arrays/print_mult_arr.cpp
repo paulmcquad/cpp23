@@ -2,6 +2,11 @@
 #include <array> // std::array
 #include <print>
 
+// Libera Chat - C++ Channel
+// [23:05] <Alipha> array<array<int, 3>, 7> foo; // is 7 arrays each with 3 ints.
+// [23:07] <Alipha> C++ doesn't have "multidimensional arrays", but rather arrays of arrays (of arrays of arrays of...)
+
+
 int main() {
     // local array Single-braces - Prior C++11
     double scores[5]{0.5, 1.5, 2.5, 3.5, 4.5};

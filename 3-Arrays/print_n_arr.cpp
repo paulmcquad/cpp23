@@ -3,10 +3,10 @@
 #include <print>
 
 // global arrays
-std::string tens_names[10] = {"", "", "twenty", "thirty", "forty",
+std::string tens_names[10]{"", "", "twenty", "thirty", "forty",
    "fifty", "sixty", "seventy", "eighty", "ninety" };
 
-std::string units_names[10] = {"", "one", "two", "three", "four",
+std::string units_names[10]{"", "one", "two", "three", "four",
    "five", "six", "seven", "eight", "nine" };
 
 int main() {

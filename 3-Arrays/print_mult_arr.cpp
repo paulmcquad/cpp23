@@ -8,7 +8,7 @@
 
 
 int main() {
-    // local array Single-braces - Prior C++11
+    // Single-braces - C++11 Support
     double scores[5]{0.5, 1.5, 2.5, 3.5, 4.5};
 
     // std::array
@@ -17,6 +17,14 @@ int main() {
     
     std::array<float, 3> newfloat{{0.5, 1.5, 4.5}};
 
+    // 2D Array
+    int arrray2d[2][3]{{1,2,3},{4,5,6}};
+
+    // 3D Array
+    int arrray3d[3][3][1]{{1,2,3},{4,5,6},{7,8}};
+
+    // 4D Array
+    int arrray4d[4][3][1][1]{{1,2,3},{4,5,6},{7,8},{9,10}};
 
     for(int i{0}; i < 5; ++i) {
         std::print("{0} ", scores[i]);
@@ -33,6 +41,11 @@ int main() {
     }
     std::print("\n");
 
+    std::print("{0} \n", (arrray2d[1][1])); // Outputs: 5
+    std::print("{0} \n", (arrray3d[2][0][1]));  // Outputs: 8
+    std::print("{0} \n", (arrray4d[3][0][0][0]));  // Outputs: 9
+
+    std::print("{0} \n", (arrray3d[2][0][7]));  // Undefined Behavior while accessing array out of bounds
 
     return 0;
 }

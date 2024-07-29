@@ -3,7 +3,7 @@
 #include <print>
 
 int main() {
-    // local array Single-braces - Prior C++11
+    // Single-braces - C++11 Support
     double scores[5]{0.5, 1.5, 2.5, 3.5, 4.5};
 
     // std::array

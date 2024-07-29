@@ -2,7 +2,7 @@
 #include <string>
 #include <print>
 
-// global arrays
+// global arrays - Single-braces - C++11 Support
 std::string tens_names[10]{"", "", "twenty", "thirty", "forty",
    "fifty", "sixty", "seventy", "eighty", "ninety" };
 

@@ -40,8 +40,9 @@ Also called an array of an array.
 
 int arrray2d[2][3]{{1,2,3},{4,5,6}};
 
-[2] - Type of array 2D
+[2] - No. of array: 2
 [3] - Size of Table of Elements (2x3) (4,5,6)
+
 
 ## 3D - Three-dimensional array
 
@@ -51,8 +52,8 @@ Also called an array of an array of arrays.
 
 int arrray3d[3][3][1]{{1,2,3},{4,5,6},{7,8}};
 
-[3] - Type of array 3D
-[3] - Size of Table of Elements (3x3x1) (4,5,6)
+[3] - No. of array: 3
+[3] - Size of Cude of Elements (3x3x1) (4,5,6)
 [1] - Size of next Table of Elements (1) (7,8)
 
 ## 4D - Four-dimensional array
@@ -61,7 +62,7 @@ int arrray3d[3][3][1]{{1,2,3},{4,5,6},{7,8}};
 
 int arrray4d[4][3][1][1]{{1,2,3},{4,5,6},{7,8},{9,10}};
 
-[4] - Type of array 4D
-[3] - Size of Table of Elements (4x3x1x1) (4,5,6)
+[4] - No. of array: 4
+[3] - Size of Structure of Elements (4x3x1x1) (4,5,6)
 [1] - Size of 2nd Elements Table (1) (7,8)
 [1] - Size of 3rd Elements Table (1) (9,10)

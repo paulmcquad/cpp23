@@ -10,6 +10,8 @@ There are 3 types of an array in C++ :
  2. Two-dimensional array
  3. Multidimensional array (3D and more)
 
+![](3D.png)
+
 ## 1D - One-dimensional array
 
 A typical declaration for an array in C++ is:
@@ -48,8 +50,6 @@ Example :
 
     int arrray2d[2][3]{{2, 4, 5},{9, 0, 19}};
 
-![](2D.webp)
-
 ## 3D - Three-dimensional array
 
 Also called an array of an array of arrays.
@@ -61,6 +61,9 @@ Also called an array of an array of arrays.
     [3] - No. of array: 3
     [3] - Size of Cude of Elements (3x3x1) (4,5,6)
     [1] - Size of next Table of Elements (1) (7,8)
+
+
+
 
 ## 4D - Four-dimensional array
 

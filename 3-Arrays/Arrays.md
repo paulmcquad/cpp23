@@ -46,10 +46,6 @@ Also called an array of an array.
 This array has 2 rows and 3 columns, which is why we have two rows of elements with 3 elements each.
 
 
-Example :
-
-    int arrray2d[2][3]{{2, 4, 5},{9, 0, 19}};
-
 ## 3D - Three-dimensional array
 
 Also called an array of an array of arrays.
@@ -61,9 +57,6 @@ Also called an array of an array of arrays.
     [3] - No. of array: 3
     [3] - Size of Cude of Elements (3x3x1) (4,5,6)
     [1] - Size of next Table of Elements (1) (7,8)
-
-
-
 
 ## 4D - Four-dimensional array
 

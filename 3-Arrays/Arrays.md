@@ -51,7 +51,7 @@ This array has 2 rows and 3 columns, which is why we have two rows of elements w
 ## 3D - Three-dimensional array
 
 
-A 3D array is a colection of 2D array table of elements given a name.
+A 3D array is a collection of 2D arrays given a name.
 
 3D Array is:
 

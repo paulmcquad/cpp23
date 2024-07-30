@@ -8,3 +8,5 @@ Source Code for 'C++23 in 3 minutes' by Paul McQuade
 1# C++23 Statements  - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/3Q5MzLGfUkA
 
 2# C++23 Functions - 'C++23 in 3 minutes' by Paul McQuade -  https://youtu.be/Exp71AekjMY
+
+3# C++23 Arrays - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/CeSptgNjAiI

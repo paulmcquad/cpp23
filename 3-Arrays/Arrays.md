@@ -14,6 +14,8 @@ There are 3 types of an array in C++ :
 
 ## 1D - One-dimensional array
 
+A 1D Array is a list of elements given a name.
+
 A typical declaration for an array in C++ is:
 type name [elements];
 
@@ -34,7 +36,7 @@ OR
 
 ## 2D - Two-dimensional array
 
-Also called an array of an array.
+A 2D Array is a table of elements given a name.
 
 2D Array is:
 
@@ -48,7 +50,6 @@ This array has 2 rows and 3 columns, which is why we have two rows of elements w
 
 ## 3D - Three-dimensional array
 
-Also called an array of an array of arrays.
 
 3D Array is:
 

@@ -46,7 +46,7 @@ int main() {
 
     // Test 3D Array - 3 Rows x 3 Columns
     std::print("{0} \n", (array3d[2][0][1]));  // Outputs: 8
-    std::print("{0} \n", (array3d[2][0][2]));  // Outputs: 0
+    std::print("{0} \n", (array3d[2][1][2]));  // Outputs: 0
 
     std::print("{0} \n", (array3d[2][0][3]));  // Undefined Behavior while accessing array out of bounds
 
@@ -57,7 +57,6 @@ int main() {
     std::print("{0} \n", (array4d[3][0][0][0]));  // Outputs: 9
     std::print("{0} \n", (array4d[3][1][0][0]));  // Outputs: 10
     std::print("{0} \n", (array4d[3][2][0][0]));  // Outputs: 0
-
 
 
 

@@ -44,13 +44,13 @@ int main() {
     // Test 2D Array - 2 Rows x 3 Columns
     std::print("{0} \n", (array2d[1][1])); // Outputs: 5
 
-    // Test 3D Array - 3 Rows x 3 Columns
+    // Test 3D Array - 3 Rows x 3 Columns + 1 Element
     std::print("{0} \n", (array3d[2][0][1]));  // Outputs: 8
-    std::print("{0} \n", (array3d[2][1][2]));  // Outputs: 0
+    std::print("{0} \n", (array3d[2][0][2]));  // Outputs: 0
 
     std::print("{0} \n", (array3d[2][0][3]));  // Undefined Behavior while accessing array out of bounds
 
-    // Test 4D Array - 4 Rows x 3 Columns
+    // Test 4D Array - 4 Rows x 3 Columns + 2 Elements
     std::print("{0} \n", (array4d[2][1][0][0]));  // Outputs: 8
     std::print("{0} \n", (array4d[2][2][0][0]));  // Outputs: 0
 

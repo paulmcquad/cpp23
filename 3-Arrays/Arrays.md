@@ -51,6 +51,8 @@ This array has 2 rows and 3 columns, which is why we have two rows of elements w
 ## 3D - Three-dimensional array
 
 
+A 3D array is a colection of 2D array table of elements given a name.
+
 3D Array is:
 
     int array3d[3][3][1]{{1,2,3},{4,5,6},{7,8}};
@@ -60,6 +62,8 @@ This array has 2 rows and 3 columns, which is why we have two rows of elements w
     [1] - Size of next Table of Elements (1) (7,8)
 
 ## 4D - Four-dimensional array
+
+A 4D array is a array of a 3D array given a name.
 
 4D Array is:
 

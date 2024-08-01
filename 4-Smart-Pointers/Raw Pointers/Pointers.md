@@ -1,4 +1,4 @@
-# Pointers
+# Normal Pointers
 
 ## What is a pointer?
 
@@ -34,3 +34,23 @@ The advantages of pointers are pointers can:
 2. Allow us to return **multiple values from functions**.
 
 3. Allow us to access a **memory address** in the computer’s memory.
+
+## Problems with Normal Pointers
+
+The problems with normal pointers are:
+
+1. Memory leaks.
+2. Dangling Pointers.
+3. Wild Pointers.
+4. Data Inconsistency.
+5. Buffer Overflow.
+
+## Using Smart Pointers
+
+It's best to use Smart Pointers over Normal Pointers.
+There are 4 types of Smart pointers.
+
+1. auto_ptr
+2. unique_ptr
+3. shared_ptr
+4. weak_ptr

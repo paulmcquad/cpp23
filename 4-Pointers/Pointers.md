@@ -2,7 +2,7 @@
 
 ## What is a pointer?
 
-A Pointer is a variable that contains an **memory address**. The pointer can contain the numeric location of another variable.
+A Pointer is a **variable** that contains an **memory address**. The pointer can contain the numeric location of another variable.
 
 ## Pointer Syntax
 
@@ -27,3 +27,10 @@ The **ampersand(&)** (known as address-of operator) gets back the **memory addre
 
 ## Why use pointers?
 
+The advantages of pointers are pointers can:
+
+1. Reduce the code and improve performance. They are used to retrieve **strings, trees, arrays, structures, and functions**.
+
+2. Allow us to return **multiple values from functions**.
+
+3. Allow us to access a **memory address** in the computer’s memory.

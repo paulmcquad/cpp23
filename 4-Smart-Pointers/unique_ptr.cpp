@@ -4,7 +4,6 @@
 // points to P2.
 
 #include <iostream>
-using namespace std;
 // Dynamic Memory management library
 #include <memory>
 
@@ -25,20 +24,16 @@ public:
 int main()
 {
 // --\/ Smart Pointer
-    unique_ptr<Rectangle> P1(new Rectangle(10, 5));
-    cout << P1->area() << endl; // This'll print 50
+    std::unique_ptr<Rectangle> P1(new Rectangle(10, 5));
+    std::cout << P1->area() << '\n'; // This'll print 50
 
     // unique_ptr<Rectangle> P2(P1);
-    unique_ptr<Rectangle> P2;
+    std::unique_ptr<Rectangle> P2;
     P2 = move(P1);
 
     // This'll print 50
-    cout << P2->area() << endl;
+    std::cout << P2->area() << '\n';
 
-    unique_ptr<Rectangle> P6;
-    P6 = move(P2);
-    cout << P6->area() << endl; // This'll print 50
-
-    // cout<<P1->area()<<endl;
+    //cout<< P1->area()<<endl;
     return 0;
 }

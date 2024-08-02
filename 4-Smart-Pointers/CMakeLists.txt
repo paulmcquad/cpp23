@@ -7,7 +7,8 @@ add_compile_options(-Werror -Wall -Wextra -Wpedantic)
 # Set C++ 23 Support
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(sm_pointers sm_pointers.cpp)
+add_executable(unique_ptr unique_ptr.cpp)
+add_executable(unique_ptr1 unique_ptr1.cpp)
 
 
 # Building on Windows with CMake and MinGW

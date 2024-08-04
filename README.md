@@ -10,3 +10,5 @@ Source Code for 'C++23 in 3 minutes' by Paul McQuade
 2# C++23 Functions - 'C++23 in 3 minutes' by Paul McQuade -  https://youtu.be/Exp71AekjMY
 
 3# C++23 Arrays - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/CeSptgNjAiI
+
+4# C++23 Smart Pointers - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/OheUqyLUtps

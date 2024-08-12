@@ -1,17 +1,17 @@
 #include <iostream>
 #include <string>
+#include <print>
 
 void convert_to_upper(std::string& s);
 
 int main() {
     std::string s;
 
-    std::cout << "Enter string to convert & press ENTER: ";
+    std::print("Enter string to convert & press ENTER: ");
     std::getline(std::cin, s);
 
     convert_to_upper(s);
-    std::cout << "The converted string is:" << '\n'
-    << s << '\n';
+    std::print("The converted string is: {0} \n", s);
     return 0;
 }
 

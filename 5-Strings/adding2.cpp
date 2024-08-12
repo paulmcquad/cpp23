@@ -6,8 +6,8 @@ bool get_next_num(int *p);
 
 int main() {
 
-     int sum = 0;
-     int n = 0;
+     int sum{0};
+     int n{0};
 
      while (get_next_num(&n)) {
           sum += n;

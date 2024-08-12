@@ -2,22 +2,21 @@
 #include <cstring>
 #include <cmath>
 #include <cstdlib>
-using namespace std;
+#include <print>
 
 double get_number();
 
 int main() {
     
-    double x = 0.0;
+    double x{0.0};
 
     while(true) {
-        cout << "Enter a num (press ENTER to exit): ";
+        std::print("Enter a num (press ENTER to exit): ");
         x = get_number();
         if (x == 0.0) {
             break;
         }
-        cout << "Square root of x is: " << sqrt(x);
-        cout << endl;
+        std::print("Square root of x is:{0} \n" ,sqrt(x));
     }
     return 0;
 }
@@ -30,7 +29,7 @@ int main() {
 double get_number() {
     char s[100];
 
-    cin.getline(s, 100);
+    std::cin.getline(s, 100);
     if (strlen(s) == 0) {
         return 0.0;
     }

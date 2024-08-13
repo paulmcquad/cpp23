@@ -14,6 +14,8 @@ add_executable(stoul stoul.cpp)
 add_executable(stoull stoull.cpp)
 add_executable(stof stof.cpp)
 add_executable(stold stold.cpp)
+add_executable(to_string to_string.cpp)
+add_executable(to_wstring to_wstring.cpp)
 
 
 # Building on Windows with CMake and MinGW

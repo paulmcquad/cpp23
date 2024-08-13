@@ -12,3 +12,6 @@ Source Code for 'C++23 in 3 minutes' by Paul McQuade
 3# C++23 Arrays - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/CeSptgNjAiI
 
 4# C++23 Smart Pointers - 'C++23 in 3 minutes' by Paul McQuade - https://youtu.be/OheUqyLUtps
+
+5# C++23 "Strings library" - 'C++23 in 3 minutes' by Paul McQuade
+https://youtu.be/iDY3Q3KOwAI

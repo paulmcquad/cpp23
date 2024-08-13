@@ -13,11 +13,16 @@ The **[string header](https://en.cppreference.com/w/cpp/header/string)** contain
 **[std::basic_string_view](https://en.cppreference.com/w/cpp/string/basic_string_view)** - describes an **object** that can refer to a **constant contiguous sequence.**
 
 **[std::char_traits](https://en.cppreference.com/w/cpp/string/char_traits)** - **abstracts basic character and string operations** for a **given character type.**
+<!--
 
 ## Header: Non-Member Functions
 
 1. **Non-member functions** can appear outside of a **class.**
 2. **Non-member functions** must be **declared** before the **member functions.**
+
+-->
+
+## Header: Member Functions
 
 ### Numberic conversions
 

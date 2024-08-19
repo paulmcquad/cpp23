@@ -1,8 +1,6 @@
 #include <print>
 
 class Fraction {
-private:
-    int num, den;      // Numerator and denominator.
 public:
     void set(int n, int d)
         {num = n; den = d; normalize();}
@@ -14,6 +12,7 @@ private:
     void normalize();   // Convert to standard form.
     int gcf(int a, int b);  // Greatest Common Factor.
     int lcm(int a, int b);  // Lowest Common Denom.
+    int num, den;      // Numerator and denominator.
 };
 
 int main() {

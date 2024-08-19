@@ -12,7 +12,7 @@ private:
     void normalize();   // Convert to standard form.
     int gcf(int a, int b);  // Greatest Common Factor.
     int lcm(int a, int b);   // Lowest Common Denom.
-    int num, den;      // Numerator and denominator.
+    int num{0}, den{0};      // Numerator and denominator.
 };
 
 int main() {

@@ -1,12 +1,12 @@
 #include <print>
 
 class Point {
-private:            // Data members (private)
-    int x, y;
 public:              // Member functions
     void set(int new_x, int new_y);
     int get_x();
     int get_y();
+private:            // Data members (private)
+    int x{0}, y{0};
 };
 
 int main() {
